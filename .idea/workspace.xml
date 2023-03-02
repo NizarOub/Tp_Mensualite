@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c1f86c7-f636-4bb9-8c84-5f9dd8a95e0d" name="Changes" comment="First" />
+    <list default="true" id="4c1f86c7-f636-4bb9-8c84-5f9dd8a95e0d" name="Changes" comment="First">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/daoVolatile/CreditDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/daoVolatile/CreditDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Credit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Credit.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
