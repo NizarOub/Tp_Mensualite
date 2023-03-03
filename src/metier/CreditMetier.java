@@ -1,15 +1,20 @@
 package metier;
 
+import dao.IDao;
 import dao.daoVolatile.CreditDao;
 
 import lombok.*;
 import model.Credit;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Service;
 
 @Data @AllArgsConstructor @NoArgsConstructor
-public class CreditMetier implements ICreditMetier<Credit,Long>{
-    CreditDao creditDao;
-
-
+@Service("metier")
+public class CreditMetier implements ICreditMetier{
+    @Autowired
+    @Qualifier("dao")
+    IDao<Credit,Long> creditDao;
     @Override
     public Credit calculer_Mensualite(Long id) throws Exception{
         var credit = creditDao.trouverParID(id);

@@ -1,5 +1,7 @@
 package metier;
 
-public interface ICreditMetier<T,ID> {
-    T calculer_Mensualite(ID id) throws Exception;
+import model.Credit;
+
+public interface ICreditMetier {
+    Credit calculer_Mensualite(Long id) throws Exception;
 }

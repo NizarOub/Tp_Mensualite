@@ -8,7 +8,11 @@ import java.util.HashSet;
 import java.util.Set;
 
 import lombok.*;
+import org.springframework.stereotype.Component;
+
+
 @Data @AllArgsConstructor
+@Component("dao1")
 public class CreditDao implements IDao<Credit, Long> {
     public static Set<Credit> BDCredits(){
         return new HashSet<Credit>(
