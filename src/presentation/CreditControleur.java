@@ -1,5 +1,6 @@
 package presentation;
 import lombok.*;
+import metier.CreditMetier;
 import metier.ICreditMetier;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

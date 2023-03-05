@@ -1,7 +1,6 @@
 package metier;
 
 import dao.IDao;
-import dao.daoVolatile.CreditDao;
 
 import lombok.*;
 import model.Credit;
@@ -24,13 +23,16 @@ public class CreditMetier implements ICreditMetier{
             throw new Exception("L'id du credit est incorrecte :: [Credit non trouve]");
         }
         else {
-            double taux = credit.getTaux_Mensuel();
-                   taux = taux/1200;
-            double capitale = credit.getCapitale_Emprunt();
-            int nbr_mois = credit.getNombre_Mois();
-            double mensualite = (capitale * taux) / (1 - (Math.pow((1 + taux), -1 * nbr_mois)));
-                   mensualite = Math.round(mensualite/100)/100;
+            double  taux         = credit.getTaux_Mensuel();
+                    taux         = taux/1200;
+            double  capitale     = credit.getCapitale_Emprunt();
+            int     nbr_mois     = credit.getNombre_Mois();
+
+            double  mensualite   = (capitale * taux) / (1 - (Math.pow((1 + taux), -1 * nbr_mois)));
+                    mensualite   = Math.round(mensualite*100)/100;
+
                    credit.setMensualite(mensualite);
+
             return credit;
         }
     }

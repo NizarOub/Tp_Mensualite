@@ -1,5 +1,5 @@
 import dao.IDao;
-import dao.daoVolatile.CreditDao;
+import dao.CreditDao;
 import lombok.var;
 import metier.CreditMetier;
 import metier.ICreditMetier;
@@ -60,7 +60,7 @@ public class SimulateurDeCredit_App {
         }while (!rep.equalsIgnoreCase("oui"));
         System.out.println("Au revoir ^_^");
     }
-    public static void test2() throws Exception{
+    public static void test2() throws Exception {
 
         String daoClass;
         String serviceClass;
@@ -110,7 +110,7 @@ public class SimulateurDeCredit_App {
     }
     public static void test3() throws Exception{
             ApplicationContext context = new ClassPathXmlApplicationContext("spring-ioc.xml");
-            creditControleur = (ICreditControleur) context.getBean("controller");
+            creditControleur = (ICreditControleur) context.getBean("controleur");
             creditControleur.afficher_Mensualite(1L);
     }
 

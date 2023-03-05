@@ -1,4 +1,4 @@
-package dao.daoVolatile;
+package dao;
 
 import dao.IDao;
 import model.Credit;
@@ -14,6 +14,15 @@ import org.springframework.stereotype.Component;
 @Data @AllArgsConstructor
 @Component("dao1")
 public class CreditDao implements IDao<Credit, Long> {
+    @Override
+    public Credit trouverParID(Long id) {
+        System.out.println("[DAO - DS volatile] trouver le credit n° : " + id);
+        return BDCredits()
+                .stream()
+                .filter(credit -> credit.getId() == id)
+                .findFirst()
+                .get();
+    }
     public static Set<Credit> BDCredits(){
         return new HashSet<Credit>(
                 Arrays.asList(
@@ -25,13 +34,4 @@ public class CreditDao implements IDao<Credit, Long> {
         );
     }
 
-    @Override
-    public Credit trouverParID(Long id) {
-        System.out.println("[DAO - DS volatile] trouver le credit n° : " + id);
-        return BDCredits()
-                .stream()
-                .filter(credit -> credit.getId() == id)
-                .findFirst()
-                .orElse(null);
-    }
 }

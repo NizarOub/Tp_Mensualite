@@ -24,7 +24,7 @@ public class Credit {
             creditStr+= "=> Taux mensuel               : " + getTaux_Mensuel() + "            \n" ;
             creditStr+= "-------------------------------------------------------------------- \n";
             creditStr+= "=> Mensualité                 : "
-                    + (getMensualite() == 0.0 ? "NON-CALCULE" : getMensualite()+ " DH/mois")+"\n";
+                    + (getMensualite() == 0.0 ? "NON-CALCULE":getMensualite()+ " DH/mois")+"\n";
             creditStr+= "==================================================================== \n";
 
         return creditStr;
