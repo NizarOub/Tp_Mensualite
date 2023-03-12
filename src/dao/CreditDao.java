@@ -15,11 +15,11 @@ import org.springframework.stereotype.Component;
 @Component("dao1")
 public class CreditDao implements IDao<Credit, Long> {
     @Override
-    public Credit trouverParID(Long id) {
-        System.out.println("[DAO - DS volatile] trouver le credit n° : " + id);
+    public Credit trouverParID(Long NO_id) {
+        System.out.println("[DAO - DS volatile] trouver le credit n° : " + NO_id);
         return BDCredits()
                 .stream()
-                .filter(credit -> credit.getId() == id)
+                .filter(credit -> credit.getNO_id() == NO_id)
                 .findFirst()
                 .get();
     }

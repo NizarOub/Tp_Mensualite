@@ -15,23 +15,23 @@ public class CreditMetier implements ICreditMetier{
     @Qualifier("dao")
     IDao<Credit,Long> creditDao;
     @Override
-    public Credit calculer_Mensualite(Long id) throws Exception{
-        var credit = creditDao.trouverParID(id);
+    public Credit calculer_Mensualite(Long NO_id) throws Exception{
+        var credit = creditDao.trouverParID(NO_id);
 
         if (credit == null)
         {
             throw new Exception("L'id du credit est incorrecte :: [Credit non trouve]");
         }
         else {
-            double  taux         = credit.getTaux_Mensuel();
+            double  taux         = credit.getNO_taux_Mensuel();
                     taux         = taux/1200;
-            double  capitale     = credit.getCapitale_Emprunt();
-            int     nbr_mois     = credit.getNombre_Mois();
+            double  capitale     = credit.getNO_capitale_Emprunt();
+            int     nbr_mois     = credit.getNO_nombre_Mois();
 
             double  mensualite   = (capitale * taux) / (1 - (Math.pow((1 + taux), -1 * nbr_mois)));
                     mensualite   = Math.round(mensualite*100)/100;
 
-                   credit.setMensualite(mensualite);
+                   credit.setNO_mensualite(mensualite);
 
             return credit;
         }

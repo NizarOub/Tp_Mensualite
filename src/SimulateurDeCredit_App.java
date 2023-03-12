@@ -109,8 +109,8 @@ public class SimulateurDeCredit_App {
         }
     }
     public static void test3() throws Exception{
-            ApplicationContext context = new ClassPathXmlApplicationContext("spring-ioc.xml");
-            creditControleur = (ICreditControleur) context.getBean("controleur");
+            ApplicationContext context = new ClassPathXmlApplicationContext("/spring-ioc.xml");
+            creditControleur = (ICreditControleur) context.getBean("controller");
             creditControleur.afficher_Mensualite(1L);
     }
 
@@ -121,6 +121,6 @@ public class SimulateurDeCredit_App {
     }
 
     public static void main(String[] args) throws Exception {
-        test4();
+        test3();
     }
 }
