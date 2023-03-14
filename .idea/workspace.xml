@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c1f86c7-f636-4bb9-8c84-5f9dd8a95e0d" name="Changes" comment="Last">
+    <list default="true" id="4c1f86c7-f636-4bb9-8c84-5f9dd8a95e0d" name="Changes" comment="edit">
+      <change afterPath="$PROJECT_DIR$/lib/commons-logging-1.2.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tp_Mensualite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tp_Mensualite.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SimulateurDeCredit_App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimulateurDeCredit_App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dao/CreditDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/CreditDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/IDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/IDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/metier/CreditMetier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metier/CreditMetier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/metier/ICreditMetier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metier/ICreditMetier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Credit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Credit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presentation/ICreditControleur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/ICreditControleur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring-ioc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring-ioc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,9 +72,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nizar\IdeaProjects\Tp_Mensualite\lib" />
       <recent name="C:\Users\nizar\IdeaProjects\Tp_Mensualite\src" />
       <recent name="C:\Users\nizar\IdeaProjects\Tp_Mensualite" />
-      <recent name="C:\Users\nizar\IdeaProjects\Tp_Mensualite\lib" />
       <recent name="C:\Users\nizar\IdeaProjects\Tp_Mensualite\src\lib" />
     </key>
   </component>
@@ -109,7 +105,8 @@
       <workItem from="1677711373528" duration="3280000" />
       <workItem from="1677858355658" duration="5723000" />
       <workItem from="1678055958075" duration="3309000" />
-      <workItem from="1678617544671" duration="1184000" />
+      <workItem from="1678617544671" duration="2074000" />
+      <workItem from="1678802187079" duration="210000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1677709942939</created>
@@ -153,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678059465820</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="edit">
+      <created>1678619025203</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678619025203</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +180,7 @@
     <MESSAGE value="firstP" />
     <MESSAGE value="SecondP" />
     <MESSAGE value="Last" />
-    <option name="LAST_COMMIT_MESSAGE" value="Last" />
+    <MESSAGE value="edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit" />
   </component>
 </project>

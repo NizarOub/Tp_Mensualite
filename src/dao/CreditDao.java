@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 
 
 @Data @AllArgsConstructor
-@Component("dao1")
+@Component("dao")
 public class CreditDao implements IDao<Credit, Long> {
     @Override
     public Credit trouverParID(Long NO_id) {
