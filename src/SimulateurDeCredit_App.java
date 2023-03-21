@@ -121,6 +121,6 @@ public class SimulateurDeCredit_App {
     }
 
     public static void main(String[] args) throws Exception {
-        test4();
+        test1();
     }
 }

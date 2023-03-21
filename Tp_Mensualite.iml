@@ -25,5 +25,6 @@
     <orderEntry type="library" name="spring-expression-5.3.23" level="project" />
     <orderEntry type="library" name="spring-core-5.3.23" level="project" />
     <orderEntry type="library" name="commons-logging-1.2" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-8.0.28" level="project" />
   </component>
 </module>

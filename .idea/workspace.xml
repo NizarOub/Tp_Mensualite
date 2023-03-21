@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c1f86c7-f636-4bb9-8c84-5f9dd8a95e0d" name="Changes" comment="Final" />
+    <list default="true" id="4c1f86c7-f636-4bb9-8c84-5f9dd8a95e0d" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/TestJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tp_Mensualite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tp_Mensualite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimulateurDeCredit_App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimulateurDeCredit_App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/CreditControleur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/CreditControleur.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,9 +24,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="FxmlFile" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,6 +62,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nizar/IdeaProjects/Tp_Mensualite&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -62,17 +73,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;ab02a46fba6c0bcf9bd4d3abdb216e32&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\nizar\IdeaProjects\Tp_Mensualite\lib" />
       <recent name="C:\Users\nizar\IdeaProjects\Tp_Mensualite\src" />
+      <recent name="C:\Users\nizar\IdeaProjects\Tp_Mensualite\lib" />
       <recent name="C:\Users\nizar\IdeaProjects\Tp_Mensualite" />
       <recent name="C:\Users\nizar\IdeaProjects\Tp_Mensualite\src\lib" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestJDBC">
     <configuration name="SimulateurDeCredit_App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SimulateurDeCredit_App" />
       <module name="Tp_Mensualite" />
@@ -80,8 +96,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestJDBC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.TestJDBC" />
+      <module name="Tp_Mensualite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestJDBC" />
         <item itemvalue="Application.SimulateurDeCredit_App" />
       </list>
     </recent_temporary>
@@ -101,6 +131,11 @@
       <workItem from="1678055958075" duration="3309000" />
       <workItem from="1678617544671" duration="2074000" />
       <workItem from="1678802187079" duration="333000" />
+      <workItem from="1678802541543" duration="358000" />
+      <workItem from="1678822819902" duration="6096000" />
+      <workItem from="1678885672894" duration="6512000" />
+      <workItem from="1679437655810" duration="626000" />
+      <workItem from="1679440175778" duration="1061000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1677709942939</created>
@@ -158,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678802428272</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Final">
+      <created>1678802779030</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678802779030</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +225,7 @@
     <MESSAGE value="Last" />
     <MESSAGE value="edit" />
     <MESSAGE value="Final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>

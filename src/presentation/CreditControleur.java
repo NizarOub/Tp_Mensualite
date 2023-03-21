@@ -13,7 +13,7 @@ public class CreditControleur implements ICreditControleur{
     @Qualifier("metier")
     ICreditMetier creditMetier;
     @Override
-    public void afficher_Mensualite(Long id) throws Exception {
+    public void afficher_Mensualite(Long id) throws Exception   {
         var creditAvecMensualite = creditMetier.calculer_Mensualite(id);
         System.out.println(creditAvecMensualite);
     }
